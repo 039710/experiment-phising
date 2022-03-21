@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  front-end:
+    build:
+      context: ./front-end
+      dockerfile: ./Dockerfile
+    ports:
+      - "1234:80"
+    container_name: midtrans-frontend
+    
+  back-end:
+    build:
+      context: ./service
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: midtrans-service

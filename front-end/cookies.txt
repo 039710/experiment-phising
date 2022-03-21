@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+midtrans.com	TRUE	/	FALSE	1999999999	language	id
+midtrans.com	TRUE	/	FALSE	1999999999	_hera_sesssion	8e9a85de1a0900b033381e52e29a777e
+
