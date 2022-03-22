@@ -1,2 +1,0 @@
-email : mustain@mail.com1 password : test
-email : astaganaga password : test

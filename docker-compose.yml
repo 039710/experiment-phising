@@ -6,9 +6,10 @@ services:
       context: ./front-end
       dockerfile: ./Dockerfile
     ports:
-      - "1234:80"
+      - "80:80"
     container_name: midtrans-frontend
-    
+    networks:
+      - phising
   back-end:
     build:
       context: ./service
@@ -16,3 +17,8 @@ services:
     ports:
       - "3000:3000"
     container_name: midtrans-service
+    networks:
+      - phising
+networks:
+  phising:
+    driver: bridge
